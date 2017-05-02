@@ -26,3 +26,5 @@ Usage
 See the [FlexForms documentation](https://github.com/cubiclesoft/php-flexforms/tree/master/docs) for example usage.
 
 See [Admin Pack](https://github.com/cubiclesoft/admin-pack) for rapidly building powerful, customized administration interfaces based on FlexForms.
+
+Expand FlexForms functionality with [FlexForms Extras](https://github.com/cubiclesoft/php-flexforms-extras) and [FlexForms Modules](https://github.com/cubiclesoft/php-flexforms-modules).
