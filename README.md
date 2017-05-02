@@ -23,7 +23,7 @@ Features
 Usage
 -----
 
-See the [FlexForms documentation](https://github.com/cubiclesoft/php-flexforms/tree/master/docs) for example usage.
+See the [FlexForms documentation](https://github.com/cubiclesoft/php-flexforms/blob/master/docs/flex_forms.md) for example usage.
 
 See [Admin Pack](https://github.com/cubiclesoft/admin-pack) for rapidly building powerful, customized administration interfaces based on FlexForms.
 
