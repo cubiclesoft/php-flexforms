@@ -161,6 +161,7 @@ This function sets new state information.  Can be used to restore a previous sta
 The built-in states are:
 
 * formnum - An integer containing the last form number output (Default is 0).
+* formidbase - A string containing the form ID prefix (Default is "ff_form_").  When Generate() is called, the "formid" state is assigned a value of formidbase + formnum.
 * formtables - A boolean that indicates whether or not to allow output of HTML tables (Default is true).
 * formwidths - A boolean that indicates whether or not to allow output of field widths (Default is true).
 * autofocused - A boolean of false or a string that indicates what field (if any) should receive keyboard caret focus (Default is false).
