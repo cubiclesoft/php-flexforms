@@ -9,7 +9,8 @@ div.ff_formwrap div.ff_formwrapinner form div.formitemtitle {
 }
 
 div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata input.text {
-	width: 95%;
+	box-sizing: border-box;
+	width: 100%;
 	font-size: 0.9em;
 	padding: 0.3em;
 	border: 1px solid #BBBBBB;
@@ -24,7 +25,8 @@ div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata input.te
 }
 
 div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata textarea {
-	width: 95%;
+	box-sizing: border-box;
+	width: 100%;
 	font-size: 0.9em;
 	padding: 0.3em;
 	border: 1px solid #BBBBBB;
@@ -52,7 +54,8 @@ div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata div.chec
 }
 
 div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata select {
-	width: 97%;
+	box-sizing: border-box;
+	width: 100%;
 	font-size: 0.9em;
 	border: 1px solid #BBBBBB;
 }
@@ -90,6 +93,10 @@ div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemresult div.fo
 div.ff_formwrap div.ff_formwrapinner form div.fieldtablewrap table td {
 	padding-right: 1.0em;
 	vertical-align: top;
+}
+
+div.ff_formwrap div.ff_formwrapinner form div.fieldtablewrap table td.nowrap {
+	white-space: nowrap;
 }
 
 div.ff_formwrap div.ff_formwrapinner form div.formsubmit {
@@ -135,9 +142,9 @@ div.ff_formmessagewrap div.ff_formmessagewrapinner div.messageerror {
 }
 
 div.ff_formmessagewrap div.ff_formmessagewrapinner div.messageinfo {
-	border-color: #9acfea;
-	background-color: #d9edf7;
-	background-image: linear-gradient(to bottom, #d9edf7 0px, #b9def0 100%);
+	border-color: #9ACFEA;
+	background-color: #D9EDF7;
+	background-image: linear-gradient(to bottom, #D9EDF7 0px, #B9DEF0 100%);
 	background-repeat: repeat-x;
-	color: #31708f;
+	color: #31708F;
 }
