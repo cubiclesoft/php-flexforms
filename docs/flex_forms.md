@@ -162,6 +162,7 @@ The built-in states are:
 
 * formnum - An integer containing the last form number output (Default is 0).
 * formidbase - A string containing the form ID prefix (Default is "ff_form_").  When Generate() is called, the "formid" state is assigned a value of formidbase + formnum.
+* responsive - A boolean that indicates whether ot not to enable responsive output for small screen support (Default is true).
 * formtables - A boolean that indicates whether or not to allow output of HTML tables (Default is true).
 * formwidths - A boolean that indicates whether or not to allow output of field widths (Default is true).
 * autofocused - A boolean of false or a string that indicates what field (if any) should receive keyboard caret focus (Default is false).
@@ -562,6 +563,7 @@ Type-specific options for array fields:
 * mode (select) - A string containing one of "select", "radio", or "checkbox" (multiple only).  FlexForms form handlers may change an input mode to the special string "formhandler".
 * cols (table) - An array of column headers.  Not HTML encoded.
 * rows (table) - An array of arrays where each subarray represents a row.  Not HTML encoded.  Note that collecting thousands of rows of data may cause PHP to run out of memory.  Use the "callback" option to output rows as they are processed.
+* nowrap (table) - An array of columns to apply a 'nowrap' class to.  It is up to CSS to actually apply the relevant style.
 * callback (table) - A valid callback function for a callback that returns the next set of rows to process.  The callback function must accept no parameters - callback().
 * multiple (file) - A boolean that indicates whether or not this is a multiple file selection element.  Browser support varies.
 
