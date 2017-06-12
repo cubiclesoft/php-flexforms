@@ -397,7 +397,7 @@ This function either outputs the jQuery UI library immediately or delays output 
 FlexForms::GetValue($key, $default)
 -----------------------------------
 
-Access:  public
+Access:  public static
 
 Parameters:
 
@@ -411,7 +411,7 @@ This function determines if the request input parameter exists and returns it.  
 FlexForms::GetSelectValues($data)
 ---------------------------------
 
-Access:  public
+Access:  public static
 
 Parameters:
 
@@ -424,7 +424,7 @@ This function takes in an input array of values and prepares them for use as val
 FlexForms::ProcessInfoDefaults($info, $defaults)
 ------------------------------------------------
 
-Access:  public
+Access:  public static
 
 Parameters:
 
@@ -438,7 +438,7 @@ This function merges missing defaults into an array of information.  This functi
 FlexForms::SetNestedPathValue(&$data, $pathparts, $val)
 -------------------------------------------------------
 
-Access:  public
+Access:  public static
 
 Parameters:
 
@@ -453,7 +453,7 @@ This function updates the input data array with the specified value.  The provid
 FlexForms::GetIDDiff($origids, $newids)
 ---------------------------------------
 
-Access:  public
+Access:  public static
 
 Parameters:
 
