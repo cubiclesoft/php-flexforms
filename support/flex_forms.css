@@ -1,14 +1,14 @@
-div.ff_formwrap div.ff_formwrapinner form div.formitem {
+div.ff_formwrap div.ff_formwrapinner div.formitem {
 	margin-top: 1.0em;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitemtitle {
+div.ff_formwrap div.ff_formwrapinner div.formitemtitle {
 	color: #222222;
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata input.text {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata input.text {
 	box-sizing: border-box;
 	width: 100%;
 	font-size: 0.9em;
@@ -16,15 +16,15 @@ div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata input.te
 	border: 1px solid #BBBBBB;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata input.text:focus {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata input.text:focus {
 	border: 1px solid #888888;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata input.text:hover {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata input.text:hover {
 	border: 1px solid #888888;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata textarea {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata textarea {
 	box-sizing: border-box;
 	width: 100%;
 	font-size: 0.9em;
@@ -33,77 +33,77 @@ div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata textarea
 	resize: vertical;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata textarea:focus {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata textarea:focus {
 	border: 1px solid #888888;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata textarea:hover {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata textarea:hover {
 	border: 1px solid #888888;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata div.radioitemwrap {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata div.radioitemwrap {
 	margin-left: 1.7em;
 	text-indent: -1.7em;
 	margin-bottom: 0.3em;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata div.checkboxitemwrap {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata div.checkboxitemwrap {
 	margin-left: 1.7em;
 	text-indent: -1.7em;
 	margin-bottom: 0.3em;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata select {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata select {
 	box-sizing: border-box;
 	width: 100%;
 	font-size: 0.9em;
 	border: 1px solid #BBBBBB;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata select:focus {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata select:focus {
 	border: 1px solid #888888;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata select:hover {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata select:hover {
 	border: 1px solid #888888;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdata div.staticwrap {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdata div.staticwrap {
 	margin-left: 0.5em;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemdesc {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemdesc {
 	color: #333333;
 	margin-bottom: 0.2em;
 	margin-left: 0.5em;
 	font-size: 0.9em;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemresult {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemresult {
 	margin-left: 0.5em;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formitem div.formitemresult div.formitemerror {
+div.ff_formwrap div.ff_formwrapinner div.formitem div.formitemresult div.formitemerror {
 	background: url('flex_forms_error.png') 0 0.1em no-repeat;
 	padding-left: 25px;
 	color: #A94442;
 	font-weight: bold;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.fieldtablewrap table td {
+div.ff_formwrap div.ff_formwrapinner div.fieldtablewrap table td {
 	padding-right: 1.0em;
 	vertical-align: top;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.fieldtablewrap table td.nowrap {
+div.ff_formwrap div.ff_formwrapinner div.fieldtablewrap table td.nowrap {
 	white-space: nowrap;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formsubmit {
+div.ff_formwrap div.ff_formwrapinner div.formsubmit {
 	margin-top: 1.2em;
 }
 
-div.ff_formwrap div.ff_formwrapinner form div.formsubmit input {
+div.ff_formwrap div.ff_formwrapinner div.formsubmit input {
 	padding: 0.2em 0.5em;
 	font-weight: bold;
 	font-size: 1.0em;
