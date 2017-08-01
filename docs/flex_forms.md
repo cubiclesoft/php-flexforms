@@ -395,6 +395,19 @@ Returns:  Nothing.
 
 This function either outputs the jQuery UI library immediately or delays output until Finalize() is called (the last form output).  If jQuery UI is already output, call `$ff->SetJSOutput("jqueryui")` so that this function won't also attempt to output jQuery UI.
 
+FlexForms::NormalizeFiles($key)
+-------------------------------
+
+Access:  public static
+
+Parameters:
+
+* $key - A string containing the file input parameter to look for.
+
+Returns:  An array of standard arrays of information about associated files.
+
+This function determines if the request file input parameter exists and returns a validated multidimensional array of information.  This function handles common functionality for the PHP `$_FILES` array (e.g. calling `is_uploaded_file()`) and reduces code complexity especially when processing multidimensional file submissions.
+
 FlexForms::GetValue($key, $default)
 -----------------------------------
 
