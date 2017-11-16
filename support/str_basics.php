@@ -76,7 +76,7 @@
 		// Allows a very limited number of characters through.
 		public static function FilenameSafe($filename)
 		{
-			return preg_replace('/[_]+/', "_", preg_replace('/[^A-Za-z0-9_.\-]/', "_", $filename));
+			return preg_replace('/\s+/', "-", trim(trim(preg_replace('/[^A-Za-z0-9_.\-]/', " ", $filename), ".")));
 		}
 
 		public static function ReplaceNewlines($replacewith, $data)
@@ -103,6 +103,22 @@
 			}
 			if ($pos + 1 < $y && ord($data[$pos]) == $CR && ord($data[$pos + 1]) == $LF)  $pos++;
 			if ($pos < $y)  $pos++;
+
+			return $result;
+		}
+
+		// Constant-time string comparison.  Ported from CubicleSoft C++ code.
+		public static function CTstrcmp($secret, $userinput)
+		{
+			$sx = 0;
+			$sy = strlen($secret);
+			$uy = strlen($userinput);
+			$result = $sy - $uy;
+			for ($ux = 0; $ux < $uy; $ux++)
+			{
+				$result |= ord($userinput{$ux}) ^ ord($secret{$sx});
+				$sx = ($sx + 1) % $sy;
+			}
 
 			return $result;
 		}
