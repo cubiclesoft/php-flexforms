@@ -316,7 +316,7 @@ This function verifies the required "sec_t" and optional "sec_extra" request var
 
 This function defends against XSS/CSRF attacks.  Never write advanced form code without proper XSS/CSRF defenses.
 
-If the specified action exists and passes the security check, the specified action is assigned to the internal automatic nonce tracker.  This is later used during Generate() for automatic form looping and reduce error-prone issues from copying and pasting code.
+If the specified action exists and passes the security check, the specified action is assigned to the internal automatic nonce tracker.  This is later used during Generate() for automatic form looping and to reduce error-prone issues from copying and pasting code.
 
 FlexForms::OutputFormCSS($delaycss = false)
 -------------------------------------------
@@ -602,7 +602,7 @@ Parameters:
 
 * $data - A string.
 
-Returns: A string containing data that is safe for use in Javascript.
+Returns:  A string containing data that is safe for use in Javascript.
 
 This static function creates an error-free Javascript string.  Note that only single-quotes are escaped.
 
@@ -628,7 +628,7 @@ Parameters:
 
 Returns:  A string containing the host in URL format.
 
-This static function retrieves the host in URL format and looks like `http[s]://www.something.com[:port]` based on the current page request.  The result of this function is cached.  The $protocol parameter defaults to whatever type the connection is detected with BB_IsSSLRequest() but can be overridden by specifying "http" or "https".
+This static function retrieves the host in URL format and looks like `http[s]://www.something.com[:port]` based on the current page request.  The result of this function is cached.  The `$protocol` parameter defaults to whatever type the connection is detected with `IsSSLRequest()` but can be overridden by specifying "http" or "https".
 
 FlexForms::GetRequestURLBase()
 ------------------------------
@@ -639,7 +639,7 @@ Parameters:  None.
 
 Returns:  A string containing the path part of the request URL (excludes query string).
 
-This static function retrieves the path of request URL.  The $_REQUEST["REQUEST_URI"] variable is parsed and the protocol, host, and query string parts are removed if they exist.  This function is used to calculate the destination for generated forms.
+This static function retrieves the path of request URL.  The $_SERVER["REQUEST_URI"] variable is parsed and the protocol, host, and query string parts are removed if they exist.  This function is used to calculate the destination for generated forms.
 
 FlexForms::GetFullRequestURLBase($protocol = "")
 ------------------------------------------------
@@ -650,9 +650,9 @@ Parameters:
 
 * $protocol - A string containing one of "", "http", or "https" (Default is "").
 
-Returns: A string containing the full request URL.
+Returns:  A string containing the full request URL.
 
-This function combines GetRequestHost() and GetRequestURLBase() to obtain the full request URL.
+This static function combines `GetRequestHost()` and `GetRequestURLBase()` to obtain the full request URL.
 
 FlexForms::RegisterFormHandler($mode, $callback)
 ------------------------------------------------

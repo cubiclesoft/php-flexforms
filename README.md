@@ -5,6 +5,8 @@ FlexForms is a powerful HTML forms generator/builder class to output HTML forms 
 
 FlexForms is the culmination of seven years of precision software development boiled down into a little over 1,200 lines of code ready for your next web application.  The core functionality is trusted and has been deployed widely throughout the world.
 
+[![Donate](https://cubiclesoft.com/res/donate-shield.png)](https://cubiclesoft.com/donate/)
+
 Features
 --------
 
