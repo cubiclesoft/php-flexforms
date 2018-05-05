@@ -244,6 +244,19 @@ Returns:  Nothing.
 
 This function can be used to ignore CSS that is output before the function is called (e.g. FlexForms default CSS).
 
+FlexForms::SetVersion($newversion)
+----------------------------------
+
+Access:  public
+
+Parameters:
+
+* $newversion - A string containing the version code to use.
+
+Returns:  Nothing.
+
+This function can be used to trigger cache busting of cached Javascript and CSS.
+
 FlexForms::SetSecretKey($secretkey)
 -----------------------------------
 
@@ -378,7 +391,9 @@ FlexForms::OutputJQuery($delayjs = false)
 
 Access:  public
 
-* $delaycss - A boolean indicating whether or not to delay outputting the jQuery library (Default is false).
+Parameters:
+
+* $delayjs - A boolean indicating whether or not to delay outputting the jQuery library (Default is false).
 
 Returns:  Nothing.
 
@@ -389,7 +404,9 @@ FlexForms::OutputJQueryUI($delayjs = false)
 
 Access:  public
 
-* $delaycss - A boolean indicating whether or not to delay outputting the jQuery UI library (Default is false).
+Parameters:
+
+* $delayjs - A boolean indicating whether or not to delay outputting the jQuery UI library (Default is false).
 
 Returns:  Nothing.
 
@@ -738,6 +755,19 @@ Parameters:
 Returns:  Nothing.
 
 This internal function processes the form options and generates one or more submit buttons.
+
+FlexForms::OutputFlexFormsJS($scripttag = true)
+-----------------------------------------------
+
+Access:  public
+
+Parameters:
+
+* $scripttag - A boolean that determines whether or not to output a surrounding 'script' tag (Default is true).
+
+Returns:  Nothing.
+
+This function outputs inline Javascript containing the CSS and Javascript FlexForms dependency loader code.
 
 FlexForms::Finalize()
 ---------------------
