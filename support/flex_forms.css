@@ -8,6 +8,11 @@
 	font-weight: bold;
 }
 
+.ff_formwrap .ff_formwrapinner .formfields > hr {
+	border: 0 none;
+	border-top: 1px dashed #BBBBBB;
+}
+
 .ff_formwrap .ff_formwrapinner .formitem .formitemdata input.text {
 	box-sizing: border-box;
 	width: 100%;
@@ -88,6 +93,11 @@
 	padding-left: 25px;
 	color: #A94442;
 	font-weight: bold;
+	line-height: 1em;
+}
+
+.ff_formwrap .ff_formwrapinner .fieldtablewrap > table.rowwrap {
+	border-collapse: collapse;
 }
 
 .ff_formwrap .ff_formwrapinner .fieldtablewrap > table.rowwrap > tbody > tr > td {
