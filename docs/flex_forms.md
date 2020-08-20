@@ -1,7 +1,7 @@
 FlexForms Class:  'support/flex_forms.php'
 ==========================================
 
-FlexForms is a powerful HTML forms generator/builder class to output HTML forms from PHP using a natural PHP arrays approach.
+FlexForms for PHP is a powerful HTML forms generator/builder class to output HTML forms from PHP using a natural PHP arrays approach.
 
 Example usage:
 
